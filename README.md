@@ -60,6 +60,7 @@ The categorical features shows that most customers do not have international pla
 There are distinct patterns across the numerical features. Each feature is depicted by a box plot, with a central line representing the median value.While most features exhibit a balanced distribution around this midpoint, deviations are evident. Some features display a clustering of values towards higher or lower extremes, indicating instances of higher-than-average or lower-than-average values. While its clear that there are outliers, it's essential to recognize their significance, especially in the context of customer churn analysis since each outlier represents a unique case that deviates significantly from the majority of the data points. 
 
 ![churn vs var](https://github.com/EdwinMtegi/PHASE-3-PROJECT/assets/151729172/8e75dc73-5174-4a2c-93ee-bff6f88abddc)
+
 For the categorical variables, the plots show that customers without international are less likely to churn and also customers without voice mail plan are less likely to churn.
 
 **EVALUATION**

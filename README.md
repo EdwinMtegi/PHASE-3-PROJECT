@@ -51,4 +51,16 @@ Several steps were taken to ensure the reliability of the data for training and 
 **EXPLORATORY DATA ANALYSIS**
 ![CURVES](https://github.com/EdwinMtegi/PHASE-3-PROJECT/assets/151729172/82301ffe-6ec6-46c3-af18-b3bd244954e4)
 
-Most of the features exhibit a bell-shaped curve, indicating an even distribution around the mean. However, the number of vmail messages feature displays a different pattern, which suggests a division in the data, possibly indicating distinct user behaviors or preferences regarding voicemail usage. The customer service calls feature also demonstrates an irregular curve fluctuating throughout the plot. This irregular pattern suggests variability or inconsistency in the frequency of customer service calls across the data. 
+Most of the numeric features exhibit a bell-shaped curve, indicating an even distribution around the mean. However, the number of vmail messages feature displays a different pattern, which suggests a division in the data, possibly indicating distinct user behaviors or preferences regarding voicemail usage. The customer service calls feature also demonstrates an irregular curve fluctuating throughout the plot. This irregular pattern suggests variability or inconsistency in the frequency of customer service calls across the data. 
+
+![categorical](https://github.com/EdwinMtegi/PHASE-3-PROJECT/assets/151729172/aada3cbb-6eb5-4d65-8727-206641527792)
+The categorical features showed that most customers do not have international plan or voice mail plan. 
+
+![CHURN VS CAT](https://github.com/EdwinMtegi/PHASE-3-PROJECT/assets/151729172/cd4d3e11-d859-4490-a8c9-e0ad99de5bd5)
+There are distinct patterns across the numerical features. Each feature is depicted by a box plot, with a central line representing the median value.While most features exhibit a balanced distribution around this midpoint, deviations are evident. Some features display a clustering of values towards higher or lower extremes, indicating instances of higher-than-average or lower-than-average values. While its clear that there are outliers, it's essential to recognize their significance, especially in the context of customer churn analysis since each outlier represents a unique case that deviates significantly from the majority of the data points. 
+
+![churn vs var](https://github.com/EdwinMtegi/PHASE-3-PROJECT/assets/151729172/8e75dc73-5174-4a2c-93ee-bff6f88abddc)
+For the categorical variables, the plots show that customers without international are less likely to churn and also customers without voice mail plan are less likely to churn.
+**EVALUATION**
+
+
